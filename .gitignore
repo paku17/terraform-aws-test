@@ -3,4 +3,6 @@
 *.tfstate.backup
 crash.log
 .terraform.lock.hcl
-*.tfvars
+
+# Keep variable files tracked if you want them in Git
+# *.tfvars
